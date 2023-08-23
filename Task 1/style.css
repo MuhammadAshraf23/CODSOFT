@@ -1,0 +1,118 @@
+
+body {
+  background-color: #e0e0e08c !important;
+}
+nav{
+    position: sticky;
+    z-index: 40;
+}
+.navbar-dark .navbar-brand{
+    font-size: 25px;
+}
+.main-sec{ 
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.925);
+    position: relative;
+    padding: 0px 70px;
+    
+}
+.main-sec::before{
+    content: '';
+    background-image: url('https://images.bewakoof.com/utter/content/2642/content_Grey_pant_combination_outfit.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.35;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-left: 40px;
+}
+.heading p{
+    color: gainsboro;
+}
+.heading h1{
+    font-size: 60px;
+}
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 70px;
+}
+.card{
+    margin: 8px;
+}
+.card img{
+width: 100%;
+height: 300px;
+cursor: pointer;
+}
+
+.main-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+#footer-sec{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 80px;
+    background-color: #dae0de;
+    margin: 40px 0px 0px;
+  }
+  ul{
+    padding: 0px;
+  }
+  #footer-sec ul li{
+    list-style: none;
+    color: #929594;
+    line-height: 30px;
+  }
+  #footer-sec ul li a{
+    text-decoration: none;
+    color: #929594;
+  }
+  #footer-sec h3{
+    padding-bottom: 14px;
+  }
+ 
+  .col1 ul li span{
+    font-weight: bolder;
+    color: black;
+  }
+  #footer-sec .followUs{
+    padding:25px 0px
+  }
+  #footer-sec .follow i{
+    padding: 0px 6px; 
+  }
+  #footer-sec .col4 .Appimg h5{
+    color: #929594;
+    padding: 15px 0px;
+  }
+  .follow{
+    padding-bottom: 10px;
+  }
+
+  
+  @media (max-width:800px){
+    .main-sec{ 
+        padding: 0px;
+        
+    }
+    .heading{
+        padding-left: 0px;
+    }
+  }
