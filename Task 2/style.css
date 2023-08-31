@@ -172,14 +172,11 @@ section h1:hover {
 
     .bgimage {
         background-size: 50%;
-
     }
 
     .hero_title {
         font-size: 3rem;
         color: white;
-
-
     }
 
     .hero_desc {
@@ -187,33 +184,33 @@ section h1:hover {
         color: rgb(234, 226, 226);
         font-weight: bold;
     }
-
-
 }
 
 @media (max-width:450px) {
     .bgimage {
-        background-size: 65%;
+        background-size: 90%;
     }
 
     .hero-text {
-        padding-left: 8px;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-20%, -20%);
+        padding-left: 3px;
     }
-
+   
     .hero_title {
-        font-size: 1.8rem;
+        font-size: 2.6rem;
         color: white;
         padding-left: 8px;
-
     }
-
+    .btn-success{
+       margin-left: 6px;
+    }
     .hero_desc {
         font-size: 0.87rem;
         color: rgb(234, 226, 226);
         padding-left: 8px;
-
-    }
-
-
+        }
 
 }
